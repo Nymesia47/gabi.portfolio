@@ -1,0 +1,133 @@
+.gradient-background {
+    background: linear-gradient(300deg, #10439F, #874CCC, #C65BCF, #F27BBD );
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .blueviola {
+    color: #10439F;
+  }
+
+  .name {
+    color: #10439F;
+    font-size: 3.5rem;
+  }
+
+  .portrait {
+    border-radius: 50%;
+  }
+  
+  .blue {
+    background-color: #874CCC;
+    color: white;
+  }
+
+  .purple {
+    color: #874CCC;
+  }
+
+  .nav-link, p {
+    color: #10439F;
+  }
+
+  footer span {
+    color: rgb(3, 43, 61)
+  }
+
+  .nav-link:hover {
+    color: #d12ecd;
+  }
+
+  .icon-square:hover {
+    color: #d12ecd;
+  }
+
+  footer svg:hover {
+    fill: #d12ecd;
+  }
+
+  .blue:hover {
+    background-color: #d12ecd;
+    color: white;
+  }
+  p .hero {
+    line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: rgb(3, 43, 61);
+  }
+
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    background-color: #10439F;
+    color: white;
+  }
+
+  .icon-square:hover {
+    background-color: #d12ecd;
+    color: white;
+  }
+
+  .icon-square-skill {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.75rem;
+    background-color: #874CCC;
+    color: white;
+
+  }
+
+  .header {
+    text-align: center;
+    color: #10439F;
+    margin-top: 30px;
+    font-size: 2rem;
+  }
+
+  .name {
+    text-align: center;
+    color: #10439F;
+    margin-top: 30px;
+    font-size: 2.5rem;
+
+  }
+
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @media (min-width: 1000px) {
+    .name {
+        text-align: start;
+    }
+
+    .header {
+        text-align: center;
+        color: #10439F;
+        margin-top: 30px;
+        font-size: 3rem;
+      }
+  }
+ 
